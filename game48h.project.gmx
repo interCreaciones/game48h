@@ -7,17 +7,31 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\Prota_SPR</sprite>
+    <sprite>sprites\Muro_SPR</sprite>
+    <sprite>sprites\Gato_SPR</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\Sotano_BGN</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\Gato1_sotano_PATH</path>
+  </paths>
   <objects name="objects">
     <object>objects\Prota_OBJ</object>
+    <object>objects\Variables</object>
+    <object>objects\Muro_OBJ</object>
+    <object>objects\Vida_OBJ</object>
+    <object>objects\Gato_OBJ</object>
+    <object>objects\Reset</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Sotano</room>
     <room>rooms\Inicio</room>
+    <room>rooms\Bano</room>
+    <room>rooms\Salon</room>
+    <room>rooms\Pasillo</room>
+    <room>rooms\Dormitorio</room>
+    <room>rooms\Creditos</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

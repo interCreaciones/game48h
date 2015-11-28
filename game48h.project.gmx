@@ -36,6 +36,7 @@
     <object>objects\paralaxSotano_OBJ</object>
     <object>objects\FadeIn_OBJ</object>
     <object>objects\ActivaFadeOut_OBJ</object>
+    <object>objects\GameOverTexto</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Sotano</room>
@@ -45,6 +46,7 @@
     <room>rooms\Pasillo</room>
     <room>rooms\Dormitorio</room>
     <room>rooms\Creditos</room>
+    <room>rooms\GameOver</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

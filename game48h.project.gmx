@@ -9,6 +9,7 @@
     <sprite>sprites\Prota_SPR</sprite>
     <sprite>sprites\Muro_SPR</sprite>
     <sprite>sprites\Gato_SPR</sprite>
+    <sprite>sprites\parallaxCerca_SPR</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Sotano_BGN</background>
@@ -23,6 +24,7 @@
     <object>objects\Vida_OBJ</object>
     <object>objects\Gato_OBJ</object>
     <object>objects\Reset</object>
+    <object>objects\paralaxSotano_OBJ</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Sotano</room>

@@ -10,11 +10,14 @@
     <sound>sound\GritoPowerUp_SND</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\Prota_SPR</sprite>
     <sprite>sprites\Muro_SPR</sprite>
     <sprite>sprites\ControlFade</sprite>
     <sprite>sprites\Gato_SPR</sprite>
     <sprite>sprites\parallaxCerca_SPR</sprite>
+    <sprites name="PROTALVL1">
+      <sprite>sprites\Prota_LV1_R_SPR</sprite>
+      <sprite>sprites\Prota_LV__L_SPR</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\Sotano_BGN</background>

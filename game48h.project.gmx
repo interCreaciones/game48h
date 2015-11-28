@@ -40,6 +40,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\Sotano_BGN</background>
+    <background>background\Salon_BGN</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Gato1_sotano_PATH</path>
@@ -49,6 +50,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\Prota_LV1_OBJ</object>
+    <object>objects\Prota_LV2_OBJ</object>
     <object>objects\Variables</object>
     <object>objects\Muro_OBJ</object>
     <object>objects\Vida_OBJ</object>
@@ -57,6 +59,12 @@
     <object>objects\Actions</object>
     <object>objects\FadeIn_OBJ</object>
     <object>objects\IraSalon_OBJ</object>
+    <object>objects\Pronto_OBJ</object>
+    <object>objects\VolverNO_OBJ</object>
+    <object>objects\IraBiblioteca_OBJ</object>
+    <object>objects\IraCocina_OBJ</object>
+    <object>objects\IraBano_OBJ</object>
+    <object>objects\IraPasillo_OBJ</object>
     <object>objects\GameOverTexto_OBJ</object>
     <objects name="Inicio">
       <object>objects\SalirPartidaTexto_OBJ</object>
@@ -68,9 +76,12 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\Inicio</room>
-    <room>rooms\Sotano</room>
-    <room>rooms\Bano</room>
     <room>rooms\Salon</room>
+    <room>rooms\Sotano</room>
+    <room>rooms\Salon2</room>
+    <room>rooms\Bano</room>
+    <room>rooms\Cocina</room>
+    <room>rooms\Biblioteca</room>
     <room>rooms\Pasillo</room>
     <room>rooms\Dormitorio</room>
     <room>rooms\Creditos</room>

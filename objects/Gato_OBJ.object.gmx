@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>path_start(Gato1_sotano_PATH,15,2,0)
+image_speed = 0.5;
 </string>
           </argument>
         </arguments>
@@ -54,7 +55,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="Prota_OBJ">
+    <event eventtype="4" ename="Prota_LV1_OBJ">
       <action>
         <libid>1</libid>
         <id>603</id>

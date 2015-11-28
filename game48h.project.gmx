@@ -17,6 +17,12 @@
     <sprites name="PROTALVL1">
       <sprite>sprites\Prota_LV1_R_SPR</sprite>
       <sprite>sprites\Prota_LV__L_SPR</sprite>
+      <sprite>sprites\quietoLV1_R_SPR</sprite>
+      <sprite>sprites\Quieto_LV1_L_SPR</sprite>
+    </sprites>
+    <sprites name="Inicio">
+      <sprite>sprites\Salir_Texto_SPR</sprite>
+      <sprite>sprites\Comenzar_Texto_SPR</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -29,21 +35,27 @@
     <font>fonts\font1</font>
   </fonts>
   <objects name="objects">
-    <object>objects\Prota_OBJ</object>
+    <object>objects\Prota_LV1_OBJ</object>
     <object>objects\Variables</object>
     <object>objects\Muro_OBJ</object>
     <object>objects\Vida_OBJ</object>
     <object>objects\PowerUp_OBJ</object>
     <object>objects\Gato_OBJ</object>
-    <object>objects\Reset</object>
-    <object>objects\paralaxSotano_OBJ</object>
+    <object>objects\Actions</object>
     <object>objects\FadeIn_OBJ</object>
-    <object>objects\ActivaFadeOut_OBJ</object>
-    <object>objects\GameOverTexto</object>
+    <object>objects\IraSalon_OBJ</object>
+    <object>objects\GameOverTexto_OBJ</object>
+    <objects name="Inicio">
+      <object>objects\SalirPartidaTexto_OBJ</object>
+      <object>objects\EmpezarPartidaTexto_OBJ</object>
+    </objects>
+    <objects name="Sotano">
+      <object>objects\paralaxSotano_OBJ</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Sotano</room>
     <room>rooms\Inicio</room>
+    <room>rooms\Sotano</room>
     <room>rooms\Bano</room>
     <room>rooms\Salon</room>
     <room>rooms\Pasillo</room>

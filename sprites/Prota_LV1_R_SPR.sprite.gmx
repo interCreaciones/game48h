@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>2</bboxmode>
-  <bbox_left>42</bbox_left>
-  <bbox_right>93</bbox_right>
-  <bbox_top>107</bbox_top>
-  <bbox_bottom>130</bbox_bottom>
+  <bbox_left>45</bbox_left>
+  <bbox_right>87</bbox_right>
+  <bbox_top>139</bbox_top>
+  <bbox_bottom>149</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -18,7 +18,7 @@
   </TextureGroups>
   <For3D>0</For3D>
   <width>120</width>
-  <height>140</height>
+  <height>150</height>
   <frames>
     <frame index="0">images\Prota_LV1_R_SPR_0.png</frame>
     <frame index="1">images\Prota_LV1_R_SPR_1.png</frame>

@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="Prota_OBJ" xview="0" yview="400" wview="1400" hview="620" xport="0" yport="0" wport="800" hport="480" hborder="600" vborder="300" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="Prota_LV1_OBJ" xview="0" yview="400" wview="1400" hview="620" xport="0" yport="0" wport="800" hport="480" hborder="600" vborder="300" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Prota_OBJ" x="256" y="448" name="inst_ABE309B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Prota_LV1_OBJ" x="928" y="576" name="inst_ABE309B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="256" y="672" name="inst_0F430E9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="224" y="672" name="inst_237A3C1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="192" y="672" name="inst_B7E33C26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -191,7 +191,7 @@
     <instance objName="Variables" x="0" y="0" name="inst_71BC8852" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Vida_OBJ" x="32" y="0" name="inst_99DF5AE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Gato_OBJ" x="1824" y="608" name="inst_7902F8EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Reset" x="64" y="0" name="inst_BDCAED66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Actions" x="64" y="0" name="inst_BDCAED66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="0" y="384" name="inst_1B3BBE3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="32" y="384" name="inst_E7A43A90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="64" y="384" name="inst_450C0D47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -292,12 +292,34 @@
     <instance objName="Muro_OBJ" x="3104" y="384" name="inst_1A3146BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="3136" y="384" name="inst_FC933A4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="3168" y="384" name="inst_371685E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="paralaxSotano_OBJ" x="-32" y="576" name="inst_BA15A914" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="FadeIn_OBJ" x="96" y="0" name="inst_A9A667CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ActivaFadeOut_OBJ" x="512" y="512" name="inst_36760209" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ActivaFadeOut_OBJ" x="544" y="512" name="inst_EA0DF327" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ActivaFadeOut_OBJ" x="576" y="512" name="inst_D810BC87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="PowerUp_OBJ" x="128" y="0" name="inst_0BD7677A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="paralaxSotano_OBJ" x="-32" y="0" name="inst_CFA98BD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2816" y="384" name="inst_7770CE7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2912" y="384" name="inst_6BA59389" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2912" y="416" name="inst_5289F3E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2848" y="384" name="inst_7B67CB57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2880" y="384" name="inst_C07CF664" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2944" y="416" name="inst_3EF5AE21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2944" y="384" name="inst_28401AE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2880" y="416" name="inst_9D75DA2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2848" y="416" name="inst_CDD6553E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2816" y="352" name="inst_9D029D19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2816" y="416" name="inst_1F1EE2F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2848" y="352" name="inst_6F20C1E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2880" y="352" name="inst_62FFB109" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2912" y="352" name="inst_9573D69F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2944" y="352" name="inst_67131BFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2816" y="320" name="inst_4A0A631D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2848" y="320" name="inst_D8F23626" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2880" y="320" name="inst_F5D4226C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2912" y="320" name="inst_357AB94D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2944" y="320" name="inst_D47412B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2816" y="288" name="inst_340A0AB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2848" y="288" name="inst_684841AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2880" y="288" name="inst_1F3D5E3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2912" y="288" name="inst_C34C1287" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IraSalon_OBJ" x="2944" y="288" name="inst_F6F82F11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

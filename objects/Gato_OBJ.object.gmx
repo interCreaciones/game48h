@@ -94,7 +94,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// global.grito = 1
+            <string>if global.grito = 1
 {
 
 path_speed=0;

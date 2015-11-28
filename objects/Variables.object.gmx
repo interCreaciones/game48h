@@ -28,6 +28,7 @@
             <string>///Definimos variables
 
 //power ups
+global.ninguno = 1
 global.grito = 0
 global.tacto = 0
 global.apariencia = 0
@@ -40,26 +41,27 @@ global.vida = 100
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>526</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_font</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>draw_text(20,20,global.vida)
-</string>
+            <kind>12</kind>
+            <font>font1</font>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>

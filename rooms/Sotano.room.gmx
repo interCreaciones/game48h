@@ -297,6 +297,7 @@
     <instance objName="ActivaFadeOut_OBJ" x="512" y="512" name="inst_36760209" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ActivaFadeOut_OBJ" x="544" y="512" name="inst_EA0DF327" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ActivaFadeOut_OBJ" x="576" y="512" name="inst_D810BC87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="PowerUp_OBJ" x="128" y="0" name="inst_0BD7677A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -25,8 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//escribe valor de la variable vida
-draw_text(0,0,"Vida: "+string(global.vida))
+            <string>//escribe el power up seleccionado
+
+draw_text(0,20,"Power up: ")
 </string>
           </argument>
         </arguments>

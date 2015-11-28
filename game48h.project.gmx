@@ -18,11 +18,15 @@
   <paths name="paths">
     <path>paths\Gato1_sotano_PATH</path>
   </paths>
+  <fonts name="fonts">
+    <font>fonts\font1</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Prota_OBJ</object>
     <object>objects\Variables</object>
     <object>objects\Muro_OBJ</object>
     <object>objects\Vida_OBJ</object>
+    <object>objects\PowerUp_OBJ</object>
     <object>objects\Gato_OBJ</object>
     <object>objects\Reset</object>
     <object>objects\paralaxSotano_OBJ</object>

@@ -25,8 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//escribe valor de la variable vida
-draw_text(0,0,"Vida: "+string(global.vida))
+            <string>//escribe el power up seleccionado
+
+draw_text(0,20,"Power up: ")
+
+if global.ninguno = 1
+{
+draw_text(85,20,"Ninguno")
+}
+
+if global.grito = 1
+{
+draw_text(85,20,"Grito")
+}
 </string>
           </argument>
         </arguments>

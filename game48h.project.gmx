@@ -12,8 +12,11 @@
   <sprites name="sprites">
     <sprite>sprites\Muro_SPR</sprite>
     <sprite>sprites\ControlFade</sprite>
-    <sprite>sprites\Gato_SPR</sprite>
     <sprite>sprites\parallaxCerca_SPR</sprite>
+    <sprites name="bebe">
+      <sprite>sprites\BebeAndando_L_SPR</sprite>
+      <sprite>sprites\BebeAndando_R_SPR</sprite>
+    </sprites>
     <sprites name="PROTALVL1">
       <sprite>sprites\Prota_LV1_R_SPR</sprite>
       <sprite>sprites\Prota_LV__L_SPR</sprite>
@@ -23,6 +26,16 @@
     <sprites name="Inicio">
       <sprite>sprites\Salir_Texto_SPR</sprite>
       <sprite>sprites\Comenzar_Texto_SPR</sprite>
+    </sprites>
+    <sprites name="PROTALVL2">
+      <sprite>sprites\Prota_LV2_R_SPR</sprite>
+      <sprite>sprites\Prota_LV2_L_SPR</sprite>
+      <sprite>sprites\Prota_LV2_Stop_L_SPR</sprite>
+      <sprite>sprites\Prota_LV2_STOP_R_SPR</sprite>
+    </sprites>
+    <sprites name="gato">
+      <sprite>sprites\Gato_SPR</sprite>
+      <sprite>sprites\GatoARG_SPR</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">

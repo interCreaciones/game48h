@@ -290,7 +290,8 @@ y-=4;
             <kind>1</kind>
             <string>if global.grito = 1
 {
-audio_play_sound(GritoPowerUp_SND,5,false)
+audio_play_sound(GritoPowerUp_SND,5,false);
+
 }
 </string>
           </argument>

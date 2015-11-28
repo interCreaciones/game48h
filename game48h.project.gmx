@@ -18,7 +18,6 @@
   <paths name="paths">
     <path>paths\Gato1_sotano_PATH</path>
   </paths>
-  <shaders name="shaders"/>
   <objects name="objects">
     <object>objects\Prota_OBJ</object>
     <object>objects\Variables</object>

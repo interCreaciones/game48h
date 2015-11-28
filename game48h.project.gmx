@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\Musica</sound>
+    <sound>sound\GatoAsustado_SND</sound>
+    <sound>sound\GritoPowerUp_SND</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\Prota_SPR</sprite>
     <sprite>sprites\Muro_SPR</sprite>

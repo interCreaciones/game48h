@@ -48,7 +48,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>if(place_meeting(x,y,Prota_LV2_OBJ))
+{
+   if(banderaColision=1)
+   {
+        banderaColision=0;
+        global.textoDialog[0]="¿?:Le voy a dar el susto de su vida.";
+              
+   }
+}
+else
+{
+     banderaColision=1
+}
+</string>
           </argument>
         </arguments>
       </action>
@@ -70,28 +83,26 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.apariencia==1)
+            <string>if(global.grito==1)
 {
     if(place_meeting(x,y,Prota_LV2_OBJ))
     {
-        Bebe_OBJ.sprite_index=Bebe_Llorando_SPR;
-        with(NoPasaMujer_OBJ) 
-        {
-            instance_destroy();
-        }
-        with(Madre)
-        {
-            sprite_index=madre_L_SPR;
-            path_start(madrePath,15,2,0);            
+       with(Hijo_OBJ)
+        {   
+            image_xscale = -1
+            hspeed = -30
+                 
         }
     
-        audio_play_sound(Lloro_SND,5,false);
+    audio_play_sound(GritoHijo_SND,5,false);
+    global.bola_conseguido = 1
+    alarm[0] = 1
+        
     }
 
-  
-
-
+   
 }
+
 
 </string>
           </argument>

@@ -35,6 +35,8 @@
       <sprite>sprites\Prota_LV2_L_SPR</sprite>
       <sprite>sprites\Prota_LV2_Stop_L_SPR</sprite>
       <sprite>sprites\Prota_LV2_STOP_R_SPR</sprite>
+      <sprite>sprites\Susto_R_SPR</sprite>
+      <sprite>sprites\Susto_L_SPR</sprite>
     </sprites>
     <sprites name="gato">
       <sprite>sprites\Gato_SPR</sprite>
@@ -52,12 +54,9 @@
     <background>background\Salon_BGN</background>
     <background>background\Biblioteca_BGN</background>
     <background>background\Cocina_BGN</background>
-
     <background>background\pasillo_BGN</background>
-
     <background>background\Inicio_BGN</background>
     <background>background\Bano_BGN</background>
-
   </backgrounds>
   <paths name="paths">
     <path>paths\Gato1_sotano_PATH</path>
@@ -111,20 +110,15 @@
     <object>objects\Hijo_OBJ</object>
   </objects>
   <rooms name="rooms">
-
-    <room>rooms\Pasillo</room>
-
     <room>rooms\Bano</room>
+    <room>rooms\Pasillo</room>
     <room>rooms\Inicio</room>
-
     <room>rooms\Sotano</room>
     <room>rooms\Cocina</room>
     <room>rooms\Biblioteca_LV2</room>
     <room>rooms\Salon</room>
     <room>rooms\Biblioteca</room>
     <room>rooms\Salon2</room>
-
-
     <room>rooms\Dormitorio</room>
     <room>rooms\Creditos</room>
     <room>rooms\GameOver</room>

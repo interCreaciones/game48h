@@ -54,6 +54,7 @@
    {
         banderaColision=0;
         global.textoDialog[0]="¿?:Le voy a dar el susto de su vida.";
+        instance_destroy();
               
    }
 }

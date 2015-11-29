@@ -183,6 +183,9 @@
     <instance objName="Prota_LV2_OBJ" x="416" y="544" name="inst_93BD6AD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="NoPasaMujer_OBJ" x="2176" y="416" name="inst_88422718" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="radioBebeLlorar" x="544" y="416" name="inst_983F4665" locked="0" code="" scaleX="12" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="grito_PowerUp" x="2496" y="448" name="inst_9329EDB1" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="grito_PowerUp" x="2656" y="544" name="inst_A52542BF" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="grito_PowerUp" x="2656" y="512" name="inst_EBEF78B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

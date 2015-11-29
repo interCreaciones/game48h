@@ -46,6 +46,7 @@
     <sprite>sprites\madre_SPR</sprite>
     <sprite>sprites\madre_L_SPR</sprite>
     <sprite>sprites\Hijo_SPR</sprite>
+    <sprite>sprites\Malo_SPR</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Sotano_BGN</background>
@@ -54,6 +55,7 @@
     <background>background\Cocina_BGN</background>
     <background>background\Inicio_BGN</background>
     <background>background\Bano_BGN</background>
+    <background>background\Dormitorio_BGN</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Gato1_sotano_PATH</path>
@@ -100,12 +102,16 @@
     <object>objects\Vida_OBJ</object>
     <object>objects\Madre</object>
     <object>objects\NoPasaMujer_OBJ</object>
+    <object>objects\radioMalo_OBJ</object>
     <object>objects\radioBebeLlorar</object>
     <object>objects\radioHijoHuye</object>
     <object>objects\VolverSalon_OBJ</object>
     <object>objects\Hijo_OBJ</object>
+    <object>objects\Malo_OBJ</object>
+    <object>objects\object33</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Dormitorio</room>
     <room>rooms\Bano</room>
     <room>rooms\Inicio</room>
     <room>rooms\Sotano</room>
@@ -115,9 +121,9 @@
     <room>rooms\Biblioteca</room>
     <room>rooms\Salon2</room>
     <room>rooms\Pasillo</room>
-    <room>rooms\Dormitorio</room>
     <room>rooms\Creditos</room>
     <room>rooms\GameOver</room>
+    <room>rooms\FIN</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

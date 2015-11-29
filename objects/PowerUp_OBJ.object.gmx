@@ -31,27 +31,27 @@ draw_text(0,20,"Power up: ")
 
 if global.ninguno = 1
 {
-draw_text(120,20,"Ninguno")
+draw_text(140,20,"Ninguno")
 }
 
 if global.grito = 1
 {
-draw_text(120,20,"Grito")
+draw_text(140,20,"Grito")
 }
 
 if global.apariencia = 1
 {
-draw_text(120,20,"Apariencia")
+draw_text(140,20,"Apariencia")
 }
 
 if global.tacto = 1
 {
-draw_text(120,20,"Tacto")
+draw_text(140,20,"Tacto")
 }
 
 if global.bola = 1
 {
-draw_text(120,20,"Bola")
+draw_text(140,20,"Bola")
 }
 </string>
           </argument>

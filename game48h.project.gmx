@@ -42,6 +42,8 @@
   <backgrounds name="background">
     <background>background\Sotano_BGN</background>
     <background>background\Salon_BGN</background>
+    <background>background\Biblioteca_BGN</background>
+    <background>background\Cocina_BGN</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Gato1_sotano_PATH</path>
@@ -77,15 +79,19 @@
       <object>objects\IraPasillo_OBJ</object>
       <object>objects\IraBano_OBJ</object>
     </objects>
+    <objects name="addPowerUp">
+      <object>objects\aparencia</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Sotano</room>
-    <room>rooms\Salon</room>
     <room>rooms\Inicio</room>
+    <room>rooms\Biblioteca_LV2</room>
+    <room>rooms\Biblioteca</room>
+    <room>rooms\Salon</room>
     <room>rooms\Salon2</room>
     <room>rooms\Bano</room>
     <room>rooms\Cocina</room>
-    <room>rooms\Biblioteca</room>
     <room>rooms\Pasillo</room>
     <room>rooms\Dormitorio</room>
     <room>rooms\Creditos</room>

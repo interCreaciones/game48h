@@ -48,6 +48,9 @@ global.vida = 100
 
 //Array de texto, cada posicion es una pagina
 global.textoDialog=0
+
+//habitación anterior
+global.roomcamefrom = -1 ;
 </string>
           </argument>
         </arguments>

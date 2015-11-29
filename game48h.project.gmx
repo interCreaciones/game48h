@@ -53,9 +53,14 @@
     <background>background\Salon_BGN</background>
     <background>background\Biblioteca_BGN</background>
     <background>background\Cocina_BGN</background>
+
+    <background>background\pasillo_BGN</background>
+
     <background>background\Inicio_BGN</background>
     <background>background\Bano_BGN</background>
+
     <background>background\Dormitorio_BGN</background>
+
   </backgrounds>
   <paths name="paths">
     <path>paths\Gato1_sotano_PATH</path>
@@ -70,6 +75,7 @@
     <object>objects\Actions</object>
     <objects name="addPowerUp">
       <object>objects\aparencia</object>
+      <object>objects\grito_PowerUp</object>
     </objects>
     <object>objects\Bebe_OBJ</object>
     <object>objects\Dialog_OBJ</object>
@@ -111,6 +117,7 @@
     <object>objects\object33</object>
   </objects>
   <rooms name="rooms">
+
     <room>rooms\Dormitorio</room>
     <room>rooms\Bano</room>
     <room>rooms\Inicio</room>

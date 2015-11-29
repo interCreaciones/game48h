@@ -320,6 +320,7 @@
     <instance objName="IraSalon_OBJ" x="2880" y="288" name="inst_1F3D5E3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="IraSalon_OBJ" x="2912" y="288" name="inst_C34C1287" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="IraSalon_OBJ" x="2944" y="288" name="inst_F6F82F11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Dialog_OBJ" x="768" y="320" name="inst_EAA610ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

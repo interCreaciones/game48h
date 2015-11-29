@@ -45,6 +45,9 @@ global.bola_conseguido = 0
 //vida
 
 global.vida = 100
+
+//Array de texto, cada posicion es una pagina
+global.textoDialog=0
 </string>
           </argument>
         </arguments>

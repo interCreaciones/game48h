@@ -37,6 +37,7 @@
       <sprite>sprites\Gato_SPR</sprite>
       <sprite>sprites\GatoARG_SPR</sprite>
     </sprites>
+    <sprite>sprites\Dialog_SPR</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Sotano_BGN</background>
@@ -58,13 +59,6 @@
     <object>objects\Gato_OBJ</object>
     <object>objects\Actions</object>
     <object>objects\FadeIn_OBJ</object>
-    <object>objects\IraSalon_OBJ</object>
-    <object>objects\Pronto_OBJ</object>
-    <object>objects\VolverNO_OBJ</object>
-    <object>objects\IraBiblioteca_OBJ</object>
-    <object>objects\IraCocina_OBJ</object>
-    <object>objects\IraBano_OBJ</object>
-    <object>objects\IraPasillo_OBJ</object>
     <object>objects\GameOverTexto_OBJ</object>
     <objects name="Inicio">
       <object>objects\SalirPartidaTexto_OBJ</object>
@@ -73,11 +67,21 @@
     <objects name="Sotano">
       <object>objects\paralaxSotano_OBJ</object>
     </objects>
+    <object>objects\Dialog_OBJ</object>
+    <objects name="IrA">
+      <object>objects\Pronto_OBJ</object>
+      <object>objects\IraSalon_OBJ</object>
+      <object>objects\IraCocina_OBJ</object>
+      <object>objects\VolverNO_OBJ</object>
+      <object>objects\IraBiblioteca_OBJ</object>
+      <object>objects\IraPasillo_OBJ</object>
+      <object>objects\IraBano_OBJ</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Inicio</room>
-    <room>rooms\Salon</room>
     <room>rooms\Sotano</room>
+    <room>rooms\Salon</room>
+    <room>rooms\Inicio</room>
     <room>rooms\Salon2</room>
     <room>rooms\Bano</room>
     <room>rooms\Cocina</room>

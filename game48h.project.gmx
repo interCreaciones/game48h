@@ -88,10 +88,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Sotano</room>
     <room>rooms\Biblioteca_LV2</room>
     <room>rooms\Salon</room>
     <room>rooms\Biblioteca</room>
-    <room>rooms\Sotano</room>
     <room>rooms\Inicio</room>
     <room>rooms\Salon2</room>
     <room>rooms\Bano</room>

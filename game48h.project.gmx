@@ -40,6 +40,7 @@
     <sprite>sprites\Dialog_SPR</sprite>
     <sprite>sprites\parallaxBiblioteca</sprite>
     <sprite>sprites\paralax_SAlon_SPR</sprite>
+    <sprite>sprites\madre_SPR</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Sotano_BGN</background>
@@ -88,16 +89,18 @@
     </objects>
     <object>objects\Variables</object>
     <object>objects\Vida_OBJ</object>
+    <object>objects\Madre</object>
+    <object>objects\NoPasaMujer_OBJ</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Sotano</room>
+    <room>rooms\Cocina</room>
     <room>rooms\Biblioteca_LV2</room>
     <room>rooms\Salon</room>
     <room>rooms\Biblioteca</room>
     <room>rooms\Inicio</room>
     <room>rooms\Salon2</room>
     <room>rooms\Bano</room>
-    <room>rooms\Cocina</room>
     <room>rooms\Pasillo</room>
     <room>rooms\Dormitorio</room>
     <room>rooms\Creditos</room>

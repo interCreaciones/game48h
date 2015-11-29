@@ -265,7 +265,6 @@
     <instance objName="FadeIn_OBJ" x="0" y="0" name="inst_6BB19C2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="IraSalon_OBJ" x="384" y="448" name="inst_3F9B7F9B" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="IraSalon_OBJ" x="320" y="480" name="inst_F98B302E" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-
     <instance objName="Muro_OBJ" x="576" y="416" name="inst_6C638FEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="608" y="416" name="inst_33C5A5C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="672" y="416" name="inst_84995AFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -333,9 +332,7 @@
     <instance objName="Bebe_OBJ" x="1440" y="512" name="inst_09694300" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Gato_OBJ" x="1856" y="640" name="inst_AAB30159" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Gato_OBJ" x="992" y="640" name="inst_A9426440" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-
     <instance objName="parallasBiblioteca" x="-96" y="32" name="inst_12B86036" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

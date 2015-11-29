@@ -63,12 +63,9 @@
     <object>objects\Dialog_OBJ</object>
     <object>objects\FadeIn_OBJ</object>
     <object>objects\GameOverTexto_OBJ</object>
-
     <object>objects\Gato_OBJ</object>
-
     <object>objects\parallasBiblioteca</object>
     <object>objects\parallasSalon</object>
-
     <objects name="Inicio">
       <object>objects\SalirPartidaTexto_OBJ</object>
       <object>objects\EmpezarPartidaTexto_OBJ</object>

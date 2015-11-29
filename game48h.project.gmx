@@ -47,29 +47,25 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\Gato1_sotano_PATH</path>
+    <path>paths\Bebe_PATH</path>
   </paths>
   <fonts name="fonts">
     <font>fonts\font1</font>
   </fonts>
   <objects name="objects">
-    <object>objects\Prota_LV1_OBJ</object>
-    <object>objects\Prota_LV2_OBJ</object>
-    <object>objects\Variables</object>
-    <object>objects\Muro_OBJ</object>
-    <object>objects\Vida_OBJ</object>
-    <object>objects\PowerUp_OBJ</object>
-    <object>objects\Gato_OBJ</object>
     <object>objects\Actions</object>
+    <objects name="addPowerUp">
+      <object>objects\aparencia</object>
+    </objects>
+    <object>objects\Bebe_OBJ</object>
+    <object>objects\Dialog_OBJ</object>
     <object>objects\FadeIn_OBJ</object>
     <object>objects\GameOverTexto_OBJ</object>
+    <object>objects\Gato_OBJ</object>
     <objects name="Inicio">
       <object>objects\SalirPartidaTexto_OBJ</object>
       <object>objects\EmpezarPartidaTexto_OBJ</object>
     </objects>
-    <objects name="Sotano">
-      <object>objects\paralaxSotano_OBJ</object>
-    </objects>
-    <object>objects\Dialog_OBJ</object>
     <objects name="IrA">
       <object>objects\Pronto_OBJ</object>
       <object>objects\IraSalon_OBJ</object>
@@ -79,15 +75,21 @@
       <object>objects\IraPasillo_OBJ</object>
       <object>objects\IraBano_OBJ</object>
     </objects>
-    <objects name="addPowerUp">
-      <object>objects\aparencia</object>
+    <object>objects\Muro_OBJ</object>
+    <object>objects\PowerUp_OBJ</object>
+    <object>objects\Prota_LV1_OBJ</object>
+    <object>objects\Prota_LV2_OBJ</object>
+    <objects name="Sotano">
+      <object>objects\paralaxSotano_OBJ</object>
     </objects>
+    <object>objects\Variables</object>
+    <object>objects\Vida_OBJ</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Sotano</room>
-    <room>rooms\Inicio</room>
     <room>rooms\Biblioteca_LV2</room>
     <room>rooms\Biblioteca</room>
+    <room>rooms\Inicio</room>
     <room>rooms\Salon</room>
     <room>rooms\Salon2</room>
     <room>rooms\Bano</room>

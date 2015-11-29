@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Prota_LV1_OBJ" x="736" y="576" name="inst_1D5E6228" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Prota_LV1_OBJ" x="416" y="608" name="inst_1D5E6228" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="608" y="384" name="inst_E80DC511" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="640" y="384" name="inst_6EAE3C4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="672" y="384" name="inst_268EEEE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -262,6 +262,67 @@
     <instance objName="Muro_OBJ" x="2304" y="352" name="inst_755DEF0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="2368" y="384" name="inst_138298D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Muro_OBJ" x="2400" y="448" name="inst_ACBFE8A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Bebe_OBJ" x="1408" y="512" name="inst_D2DC7B17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gato_OBJ" x="1216" y="640" name="inst_51A170BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gato_OBJ" x="1984" y="640" name="inst_E4F87094" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="576" y="416" name="inst_AFAC2399" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="608" y="416" name="inst_7FB24018" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="640" y="416" name="inst_68ACFACB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="672" y="416" name="inst_2969823D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="704" y="416" name="inst_B675A346" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="736" y="416" name="inst_C3CACF71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="768" y="416" name="inst_E3EC68FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="800" y="416" name="inst_0EF93217" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="832" y="416" name="inst_0E9A34A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="864" y="416" name="inst_12A4D6DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="896" y="416" name="inst_246DA7A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="928" y="416" name="inst_5501477E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="960" y="416" name="inst_931F51C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="992" y="416" name="inst_AD0D3DA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1024" y="416" name="inst_39CCD540" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1056" y="416" name="inst_12C67028" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1088" y="416" name="inst_71B34C4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1120" y="416" name="inst_699EFFDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1152" y="416" name="inst_0FA1B6A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1184" y="416" name="inst_DF7ECB0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1216" y="416" name="inst_E60DB532" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1248" y="416" name="inst_B50BAE55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1280" y="416" name="inst_795BB4C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1344" y="416" name="inst_7C543F36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1408" y="416" name="inst_09552A6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1440" y="416" name="inst_62C2801B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1472" y="416" name="inst_9DC751B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1504" y="416" name="inst_5B8C773B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1536" y="416" name="inst_88CA8591" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1504" y="416" name="inst_C2AB1670" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1472" y="416" name="inst_27984CE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1440" y="416" name="inst_9C054E16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1408" y="416" name="inst_9E35A3CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1376" y="416" name="inst_F26CFBE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1344" y="416" name="inst_A51ABEBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1312" y="416" name="inst_089A0412" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1568" y="416" name="inst_72873FD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1600" y="416" name="inst_DFEE00F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1632" y="416" name="inst_4D1EBD80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1664" y="416" name="inst_AE47FCED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1696" y="416" name="inst_CAA6F225" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1728" y="416" name="inst_7407A46C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1760" y="416" name="inst_F9160EE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1792" y="416" name="inst_28FD43C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1824" y="416" name="inst_C7DEB0AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1856" y="416" name="inst_20B99E39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1888" y="416" name="inst_30FB0777" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1920" y="416" name="inst_215ED9C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1952" y="416" name="inst_7A577C8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="1984" y="416" name="inst_514D7C71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="2016" y="416" name="inst_A7683663" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="2048" y="416" name="inst_E2076D13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="2080" y="416" name="inst_8506427F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="2112" y="416" name="inst_43D6F6B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="2144" y="416" name="inst_6ECD46C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="2176" y="416" name="inst_B5B22DF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="2240" y="416" name="inst_7D93D9EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Muro_OBJ" x="2208" y="416" name="inst_AEFD59E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

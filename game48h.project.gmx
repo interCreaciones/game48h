@@ -51,6 +51,7 @@
     <path>paths\Gato1_sotano_PATH</path>
     <path>paths\Bebe_PATH</path>
   </paths>
+  <shaders name="shaders"/>
   <fonts name="fonts">
     <font>fonts\font1</font>
   </fonts>

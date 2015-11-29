@@ -25,15 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>path_start(Bebe_PATH,10,2,0)
-image_speed = 0.3;
-banderaColision=1;
+            <string>
+image_speed = 0.3
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="4" ename="Prota_LV2_OBJ">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -50,21 +49,34 @@ banderaColision=1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(place_meeting(x,y,Prota_LV1_OBJ) || place_meeting(x,y,Prota_LV2_OBJ))
-{
-   if(banderaColision=1)
-   {
-        banderaColision=0;
-        global.vida -= 10
-        if(global.vida==0)
-            room_goto(GameOver);
-   }
-   
-}
-else
-{
-     banderaColision=1
-}
+            <string>global.vida -= 10
+if(global.vida==0)
+    room_goto(GameOver);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="Prota_LV1_OBJ">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.vida -= 10
+if(global.vida==0)
+    room_goto(GameOver);
 </string>
           </argument>
         </arguments>
@@ -89,7 +101,7 @@ else
             <kind>1</kind>
             <string>if global.apariencia = 1 //&amp; distance_to_object(Prota_LV2_OBJ) &lt; 100
 {
-path_speed = 0
+sprite_index = BebeLloron 
 }
 
 

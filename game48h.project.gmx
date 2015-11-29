@@ -14,6 +14,7 @@
     <sprite>sprites\ControlFade</sprite>
     <sprite>sprites\parallaxCerca_SPR</sprite>
     <sprites name="bebe">
+      <sprite>sprites\BebeLloron</sprite>
       <sprite>sprites\BebeAndando_L_SPR</sprite>
       <sprite>sprites\BebeAndando_R_SPR</sprite>
     </sprites>
@@ -46,6 +47,8 @@
     <background>background\Salon_BGN</background>
     <background>background\Biblioteca_BGN</background>
     <background>background\Cocina_BGN</background>
+    <background>background\Inicio_BGN</background>
+    <background>background\Bano_BGN</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Gato1_sotano_PATH</path>
@@ -91,13 +94,13 @@
     <object>objects\Vida_OBJ</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Bano</room>
+    <room>rooms\Inicio</room>
     <room>rooms\Sotano</room>
     <room>rooms\Biblioteca_LV2</room>
     <room>rooms\Salon</room>
     <room>rooms\Biblioteca</room>
-    <room>rooms\Inicio</room>
     <room>rooms\Salon2</room>
-    <room>rooms\Bano</room>
     <room>rooms\Cocina</room>
     <room>rooms\Pasillo</room>
     <room>rooms\Dormitorio</room>

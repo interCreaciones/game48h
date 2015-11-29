@@ -48,78 +48,47 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="Madre">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>with(Madre)
+            <string>if(place_meeting(x,y,Prota_LV2_OBJ))
 {
-    path_speed=0;
+   if(banderaColision=1)
+   {
+        banderaColision=0;
+        global.textoDialog[0]="¿?:Estando ahi la madre no pienso acercarme...";
+        global.textoDialog[1]="¿?:...Da más miedo que yo...";
+      
+   }
+}
+else
+{
+     banderaColision=1
 }
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="5" enumb="32">
+    <event eventtype="4" ename="Prota_LV2_OBJ">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
+        <id>101</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_move</functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
+        <whoName>Prota_LV2_OBJ</whoName>
+        <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.apariencia==1)
-{
-    if(place_meeting(x,y,Prota_LV2_OBJ))
-    {
-        Bebe_OBJ.sprite_index=Bebe_Llorando_SPR;
-        with(NoPasaMujer_OBJ) 
-        {
-            instance_destroy();
-        }
-        with(Madre)
-        {
-            sprite_index=madre_L_SPR;
-            path_start(madrePath,15,2,0);            
-        }
-    
-        audio_play_sound(Lloro_SND,5,false);
-    }
-
-  
-
-
-}
-
-</string>
+            <string>000010000</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>

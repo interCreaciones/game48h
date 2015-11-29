@@ -38,7 +38,7 @@ global.bola = 0
 
 global.ninguno = 1
 global.apariencia_conseguido = 0
-global.grito_conseguido = 0
+global.grito_conseguido = 1
 global.tacto_conseguido = 0
 global.bola_conseguido = 0
 

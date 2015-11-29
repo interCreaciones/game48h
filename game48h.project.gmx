@@ -8,6 +8,8 @@
     <sound>sound\Musica</sound>
     <sound>sound\GatoAsustado_SND</sound>
     <sound>sound\GritoPowerUp_SND</sound>
+    <sound>sound\Lloro_SND</sound>
+    <sound>sound\GritoHijo_SND</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\Muro_SPR</sprite>
@@ -43,18 +45,25 @@
     <sprite>sprites\paralax_SAlon_SPR</sprite>
     <sprite>sprites\madre_SPR</sprite>
     <sprite>sprites\madre_L_SPR</sprite>
+    <sprite>sprites\Hijo_SPR</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Sotano_BGN</background>
     <background>background\Salon_BGN</background>
     <background>background\Biblioteca_BGN</background>
     <background>background\Cocina_BGN</background>
+
     <background>background\pasillo_BGN</background>
+
+    <background>background\Inicio_BGN</background>
+    <background>background\Bano_BGN</background>
+
   </backgrounds>
   <paths name="paths">
     <path>paths\Gato1_sotano_PATH</path>
     <path>paths\Bebe_PATH</path>
     <path>paths\madrePath</path>
+    <path>paths\Hijo_PATH</path>
   </paths>
   <fonts name="fonts">
     <font>fonts\font1</font>
@@ -97,17 +106,25 @@
     <object>objects\Madre</object>
     <object>objects\NoPasaMujer_OBJ</object>
     <object>objects\radioBebeLlorar</object>
+    <object>objects\radioHijoHuye</object>
+    <object>objects\VolverSalon_OBJ</object>
+    <object>objects\Hijo_OBJ</object>
   </objects>
   <rooms name="rooms">
+
     <room>rooms\Pasillo</room>
+
+    <room>rooms\Bano</room>
+    <room>rooms\Inicio</room>
+
     <room>rooms\Sotano</room>
     <room>rooms\Cocina</room>
     <room>rooms\Biblioteca_LV2</room>
     <room>rooms\Salon</room>
     <room>rooms\Biblioteca</room>
-    <room>rooms\Inicio</room>
     <room>rooms\Salon2</room>
-    <room>rooms\Bano</room>
+
+
     <room>rooms\Dormitorio</room>
     <room>rooms\Creditos</room>
     <room>rooms\GameOver</room>

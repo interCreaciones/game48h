@@ -7,19 +7,19 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>0</bbox_left>
-  <bbox_right>1379</bbox_right>
-  <bbox_top>0</bbox_top>
-  <bbox_bottom>154</bbox_bottom>
+  <bbox_left>414</bbox_left>
+  <bbox_right>2873</bbox_right>
+  <bbox_top>22</bbox_top>
+  <bbox_bottom>674</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>1380</width>
-  <height>155</height>
+  <width>2896</width>
+  <height>675</height>
   <frames>
-    <frame index="0">images\Dialog_SPR_0.png</frame>
+    <frame index="0">images\parallaxBiblioteca_0.png</frame>
   </frames>
 </sprite>

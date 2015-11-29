@@ -38,6 +38,8 @@
       <sprite>sprites\GatoARG_SPR</sprite>
     </sprites>
     <sprite>sprites\Dialog_SPR</sprite>
+    <sprite>sprites\parallaxBiblioteca</sprite>
+    <sprite>sprites\paralax_SAlon_SPR</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Sotano_BGN</background>
@@ -61,7 +63,12 @@
     <object>objects\Dialog_OBJ</object>
     <object>objects\FadeIn_OBJ</object>
     <object>objects\GameOverTexto_OBJ</object>
+
     <object>objects\Gato_OBJ</object>
+
+    <object>objects\parallasBiblioteca</object>
+    <object>objects\parallasSalon</object>
+
     <objects name="Inicio">
       <object>objects\SalirPartidaTexto_OBJ</object>
       <object>objects\EmpezarPartidaTexto_OBJ</object>
@@ -88,9 +95,9 @@
   <rooms name="rooms">
     <room>rooms\Sotano</room>
     <room>rooms\Biblioteca_LV2</room>
+    <room>rooms\Salon</room>
     <room>rooms\Biblioteca</room>
     <room>rooms\Inicio</room>
-    <room>rooms\Salon</room>
     <room>rooms\Salon2</room>
     <room>rooms\Bano</room>
     <room>rooms\Cocina</room>

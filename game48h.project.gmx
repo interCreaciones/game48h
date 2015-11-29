@@ -14,9 +14,9 @@
     <sprite>sprites\ControlFade</sprite>
     <sprite>sprites\parallaxCerca_SPR</sprite>
     <sprites name="bebe">
-      <sprite>sprites\BebeLloron</sprite>
       <sprite>sprites\BebeAndando_L_SPR</sprite>
       <sprite>sprites\BebeAndando_R_SPR</sprite>
+      <sprite>sprites\Bebe_Llorando_SPR</sprite>
     </sprites>
     <sprites name="PROTALVL1">
       <sprite>sprites\Prota_LV1_R_SPR</sprite>
@@ -42,20 +42,19 @@
     <sprite>sprites\parallaxBiblioteca</sprite>
     <sprite>sprites\paralax_SAlon_SPR</sprite>
     <sprite>sprites\madre_SPR</sprite>
+    <sprite>sprites\madre_L_SPR</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Sotano_BGN</background>
     <background>background\Salon_BGN</background>
     <background>background\Biblioteca_BGN</background>
     <background>background\Cocina_BGN</background>
-    <background>background\Inicio_BGN</background>
-    <background>background\Bano_BGN</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Gato1_sotano_PATH</path>
     <path>paths\Bebe_PATH</path>
+    <path>paths\madrePath</path>
   </paths>
-  <shaders name="shaders"/>
   <fonts name="fonts">
     <font>fonts\font1</font>
   </fonts>
@@ -95,16 +94,17 @@
     <object>objects\Vida_OBJ</object>
     <object>objects\Madre</object>
     <object>objects\NoPasaMujer_OBJ</object>
+    <object>objects\radioBebeLlorar</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Bano</room>
-    <room>rooms\Inicio</room>
     <room>rooms\Sotano</room>
     <room>rooms\Cocina</room>
     <room>rooms\Biblioteca_LV2</room>
     <room>rooms\Salon</room>
     <room>rooms\Biblioteca</room>
+    <room>rooms\Inicio</room>
     <room>rooms\Salon2</room>
+    <room>rooms\Bano</room>
     <room>rooms\Pasillo</room>
     <room>rooms\Dormitorio</room>
     <room>rooms\Creditos</room>
